@@ -1,0 +1,63 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  padding: auto;
+  font-family: sans-serif;
+  background-color: #303030;
+  color: #f1f1f1;
+}
+
+header{
+  display: flex;
+  text-align: center;
+}
+
+.left_banner, .right_banner{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+
+}
+
+#title{
+  margin-top: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One';
+}
+
+#img-div{
+  width: 60%;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+#image{
+  display: block;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+h2{
+  margin: 20px 10px;
+  font-size: 2.5vw;
+}
