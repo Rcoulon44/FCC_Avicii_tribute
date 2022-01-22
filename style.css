@@ -13,6 +13,34 @@ body{
   color: #f1f1f1;
 }
 
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#triangle1{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-bottom : 800px solid rgba(213, 213, 213, 0.5);
+ border-left : 800px solid transparent;
+ margin-right: 100px;
+}
+
+#triangle2{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 800px solid rgba(213, 213, 213, 0.5);
+ border-right: 800px solid transparent;
+ /* margin-left: 10px; */
+}
+
 header{
   display: flex;
   text-align: center;
@@ -30,8 +58,27 @@ header{
 .logo{
   width: 100px;
   height: 100px;
-  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 
+#triangle3{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-bottom : 50px solid #f1f1f1;
+ border-left : 50px solid transparent;
+ margin-right: 5px;
+}
+
+#triangle4{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 50px solid #f1f1f1;
+ border-right: 50px solid transparent;
+ margin-left: 5px;
 }
 
 #title{
