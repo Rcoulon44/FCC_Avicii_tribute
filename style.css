@@ -13,6 +13,7 @@ body{
   color: #f1f1f1;
 }
 
+/* Logo for background */
 .bg{
   position: absolute;
   width: 100%;
@@ -27,21 +28,22 @@ body{
  display : inline-block;
  height : 0;
  width : 0;
- border-bottom : 800px solid rgba(213, 213, 213, 0.5);
- border-left : 800px solid transparent;
- margin-right: 100px;
+ border-bottom : 80vh solid rgba(213, 213, 213, 0.5);
+ border-left : 80vh solid transparent;
+ margin-right: 10vh;
 }
 
 #triangle2{
  display : inline-block;
  height : 0;
  width : 0;
- border-top : 800px solid rgba(213, 213, 213, 0.5);
- border-right: 800px solid transparent;
- /* margin-left: 10px; */
+ border-top : 80vh solid rgba(213, 213, 213, 0.5);
+ border-right: 80vh solid transparent;
 }
 
+/* Header design */
 header{
+  margin-top: 2vh;
   display: flex;
   text-align: center;
 }
@@ -55,6 +57,7 @@ header{
 
 }
 
+/* Left banner design */
 .logo{
   width: 100px;
   height: 100px;
@@ -67,22 +70,21 @@ header{
  display : inline-block;
  height : 0;
  width : 0;
- border-bottom : 50px solid #f1f1f1;
- border-left : 50px solid transparent;
- margin-right: 5px;
+ border-bottom : 4vw solid #f1f1f1;
+ border-left : 4vw solid transparent;
+ margin-right: 1vw;
 }
 
 #triangle4{
  display : inline-block;
  height : 0;
  width : 0;
- border-top : 50px solid #f1f1f1;
- border-right: 50px solid transparent;
- margin-left: 5px;
+ border-top : 4vw solid #f1f1f1;
+ border-right: 4vw solid transparent;
 }
 
 #title{
-  margin-top: 50px;
+  margin-top: 2vw;
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 3vw;
@@ -90,6 +92,7 @@ header{
   font-family: 'Alfa Slab One';
 }
 
+/* Center image */
 #img-div{
   width: 60%;
   background-color: #f1f1f1;
@@ -104,7 +107,54 @@ header{
   margin: 20px auto;
 }
 
+/* right banner design*/
 h2{
   margin: 20px 10px;
   font-size: 2.5vw;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.discography{
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(213, 213, 213);
+  color: #333;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.discography h3{
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+}
+
+.disc-card{
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: indianred;
+  margin: 40px;
+}
+
+.disc-card img{
+  width: 100%;
+  height: auto;
+}
+
+#tribute-info{
+  width: 45%;
+  padding: 20px;
+  background-color: rgb(213, 213, 213);
+  color: #333;
+  border-radius: 10px;
 }
