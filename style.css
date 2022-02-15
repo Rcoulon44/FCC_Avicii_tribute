@@ -15,6 +15,20 @@ body{
   color: #f1f1f1;
 }
 
+section{
+  padding: 20px;
+  background-color: rgb(213, 213, 213);
+  color: #333;
+  border-radius: 10px;
+}
+
+.subTitle{
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+  margin: 20px auto;
+}
+
 /* Logo for background */
 .bg{
   position: fixed;
@@ -129,20 +143,9 @@ main{
 .discography{
   width: 45%;
   min-height: 300px;
-  height: auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgb(213, 213, 213);
-  color: #333;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-}
-
-.discography h3{
-  text-align: center;
-  width: 100%;
-  font-size: 2vw;
 }
 
 .disc-card{
@@ -206,17 +209,48 @@ main{
 #tribute-info{
   width: 45%;
   min-width: 300px;
-  padding: 20px;
-  background-color: rgb(213, 213, 213);
-  color: #333;
-  border-radius: 10px;
+}
+
+#tribute-info p{
+  margin: 20px auto;
+  text-align: justify;
 }
 
 #foundation{
   margin-top: 50px;
   width: 100%;
-  padding: 20px;
-  background-color: rgb(213, 213, 213);
-  color: #333;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#foundation .subtitle{
+  width: 100%;
+}
+
+#foundation div{
+  width: 65%;
+}
+
+#tribute-link{
+  text-decoration: none;
+  color: #8c735a;
+  font-weight: bold;
+}
+
+#tribute-link:hover{
+  text-decoration: underline;
+}
+
+#foundation img{
+  width: 20%;
+}
+
+/* footer */
+
+.signature{
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: 'Alfa Slab One';
+  margin: 20px 20px;
 }
