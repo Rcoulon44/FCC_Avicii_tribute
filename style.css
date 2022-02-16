@@ -132,12 +132,12 @@ h2{
   font-size: 2.5vw;
 }
 
-main{
+.content{
   width: 90%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px 50px;
+  margin: 20px auto;
 }
 
 .discography{
@@ -242,6 +242,10 @@ main{
   text-decoration: underline;
 }
 
+#tribute-link:visited{
+  color: #333;
+}
+
 #foundation img{
   width: 20%;
 }
@@ -253,4 +257,49 @@ main{
   font-size: 0.8rem;
   font-family: 'Alfa Slab One';
   margin: 20px 20px;
+}
+
+/* Rules for tablet navigation */
+@media screen and (max-width: 800px){
+  header{
+    margin-top: 1vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .left_banner{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #title{
+    text-align: center;
+    writing-mode: initial;
+    text-orientation: initial;
+    margin: 0px auto;
+  }
+
+  .right_banner{
+    width: 100%;
+  }
+}
+
+/* Rules for mobile navigation */
+@media screen and (max-width: 650px){
+  .discography, #tribute-info{
+    width: 100%;
+  }
+
+  #tribute-info{
+    margin-top: 50px;
+    min-width: 200px;
+  }
+
+  .disc-card{
+    width: 150px;
+    height: 220px;
+  }
 }
